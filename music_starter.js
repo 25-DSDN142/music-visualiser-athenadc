@@ -1,16 +1,48 @@
 
 // vocal, drum, bass, and other are volumes ranging from 0 to 100
+let firstRun = true
+let myImage;
+
+let squareXmove = 1
+let squareSize = 20
+
 function draw_one_frame(words, vocal, drum, bass, other, counter) {
-  
+background(200, 204, 255)
+squareSize = map(bass, 0, 100, 20, 100)
+circleSize = map(other, 0, 500, 50, 500)
+// lipSize = map(words, 0, 500, 50, 500)
+
+square(10+squareXmove, 150, squareSize, 10)
+circle(10+circleSize, 150, circleSize, 10)
+// lip(10+lipSize, 100, lipSize, 10)
+
+squareXmove = squareXmove+3
+
+if(firstRun){
    
-   background(20)
+   myImage = loadImage('Untitled-1.png')
 
-  background(150)
-// circle(100, 100, 50)
-
-for(let i= 0; i <5; i++){
-   circle (200 +(i*10), 250 +(i*20), 10)
+   firstRun = false;
 }
+
+image(myImage, 0, 0)
+
+if (squareXmove > 1200){
+squareXmove = 1
+}
+
+for(let i=0; i <5; i++){
+   circle (50 + (i*100), 50 + (i*150), 50)
+   circle (50 + (i*200), 50 + (i*150), 50)
+}
+
+
+
+
+
+// //for(let i= 0; i <5; i++){
+//    circle (200 +(i*10), 250 +(i*20), 10)
+// }
 //   textFont('Verdana'); // please use CSS safe fonts
 //   rectMode(CENTER)
 //   textSize(24);
