@@ -3,37 +3,53 @@
 let firstRun = true
 let myImage;
 
+
 let squareXmove = 1
 let squareSize = 50
-
 let squareXpos = 20
 let squareYpos = 50
 let squareSizes = 60
+let backgroundImage;
+
+// let secondRun = true
+// let backgroundImage;
 
 function draw_one_frame(words, vocal, drum, bass, other, counter) {
+
+
 background(24, 33, 42)
-   // line(0, 0, 1200, 1200)
-   // line(0, 50, 1000, 1200)
-   // line(0, 100, 800, 1200)
-   // line(0, 150, 600, 1200)
-   // line(0, 200, 400, 1200)
-   // line(0, 250, 200, 1200)
-   // line(0, 300, 0, 1200)
-   // line(200, 0, 1200, 750)
 
 
 
-squareSize = map(bass, 0, 100, 20, 100)
-circleSize = map(other, 0, 500, 50, 500)
-squareSizes = map(drum, 20, 50, 100, 80)
+squareSize = map(bass, 0, 100, 20, 80)
+// circleSize = map(other, 0, 100, 50, 500)
+squareDrum = map(drum, 0, 100, 5, 60)
+squareVocal = map(vocal, 0, 100, 0, 50)
 
+rectMode(CENTER)
 square(10+squareXmove, 200, squareSize, 10)
-circle(10+circleSize, 150, circleSize, 10)
+
+
+
+
+// circle(10+circleSize, 150, circleSize, 10)
 // lip(10+lipSize, 100, lipSize, 10)
 
 squareXmove = squareXmove+3
 
 
+for (let i = 0; i<10; i++){
+      fill(184, 89, 2)
+      square (squareXpos, squareYpos + (i*80), squareDrum, 10);
+   
+   for (let j=0; j<20; j++){
+       square (squareXpos + (j*80), squareYpos + (i*80), squareDrum, 10);
+}
+
+for (let k = 0; k<20; k++){
+        fill (101, 141, 252)
+        square (squareXpos + (i*80), squareYpos + (i*80), squareVocal, 5)
+}
 
 if(firstRun){
    
@@ -46,27 +62,25 @@ image(myImage, 0, 0)
 
 if (squareXmove > 1200){
 squareXmove = 1
+
 }
 
-// for(let i=0; i <5; i++){
-//    circle (50 + (i*100), 50 + (i*150), 50)
-//    circle (50 + (i*200), 50 + (i*150), 50)
+// if (words < 70){
+
+// squareSize = map(other, 0, 100, 20, 100)
+   
 // }
 
 
-// let bassMap = map(bass, 0, 100, 20, 150)
 
-for (let i = 0; i<squareSizes; i++){
- fill(184, 89, 2)
-   square (squareXpos, squareYpos + (i*80), squareSizes, 10)
+fill(247, 211, 111);
+  textFont('Courier New', 50);
+  text(words, 500, 200);
 
 }
-   
 
 
-   fill(247, 211, 111);
-  textFont('Courier New', 50);
-  text(words, 500, 200)
+
 
   
 
@@ -123,4 +137,5 @@ for (let i = 0; i<squareSizes; i++){
 //    textAlign(CENTER);
 //    textSize(vocal);
 //    text(words, width/2, height/3);
+
 }

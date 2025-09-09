@@ -2486,61 +2486,61 @@ on
 on
 on
 on
-drug
-drug
-drug
-drug
-drug
-drug
-drug
-drug
-drug
-drug
-drug
-drug
-drug
-drug
-drug
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
-disorders,
+doctor's
+doctor's
+doctor's
+doctor's
+doctor's
+doctor's
+doctor's
+doctor's
+doctor's
+doctor's
+doctor's
+doctor's
+doctor's
+doctor's
+doctor's
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
+orders,
 
 
 
@@ -2818,45 +2818,45 @@ I
 I
 I
 
-ran
-ran
-ran
-ran
-ran
-ran
-ran
-ran
+run
+run
+run
+run
+run
+run
+run
+run
 
 
 
 
 
-a
-a
-a
-a
-a
-a
-spy
-spy
-spy
-spy
-spy
-spy
-spy
-spy
-spy
-spy
-spy
-spy
-spy
-spy
-spy
-spy
-spy
-spy
-spy
-spy
+on
+on
+on
+on
+on
+on
+spite
+spite
+spite
+spite
+spite
+spite
+spite
+spite
+spite
+spite
+spite
+spite
+spite
+spite
+spite
+spite
+spite
+spite
+spite
+spite
 
 on
 on
@@ -3526,289 +3526,289 @@ progression.
 
 
 
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
 
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-
-
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-Sycophant,
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
-sycophant
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
 
 
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça,
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
 
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
-Sycophant
+
+
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
+c'est comme ça
 
 
 
