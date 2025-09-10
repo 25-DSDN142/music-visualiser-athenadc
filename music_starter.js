@@ -32,8 +32,19 @@ square(40+squareXmove, 300, squareSize, 10)
 square(10+squareXmove, 500, squareSize, 10)
 square(40+squareXmove, 700, squareSize, 10)
 
+push() 
+rectMode(CENTER)
+let angle = frameCount * 1;
+rotate(angle);
+ellipse(0+ squareXmove, 0, 80, 40);
+ellipse(60+ squareXmove, 200, 80, 40);
+ellipse(120+ squareXmove, 400, 80, 40);
+ellipse(180+ squareXmove, 600, 80, 40);
+pop()
+
 
 squareXmove = squareXmove+3
+
 
 
 for (let i = 0; i<10; i++){
@@ -65,6 +76,7 @@ if (squareXmove > 1200){
 squareXmove = 1
 
 }
+
 
 // if (words < 70){
 
