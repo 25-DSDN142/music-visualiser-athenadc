@@ -11,8 +11,6 @@ let squareYpos = 50
 let squareSizes = 60
 let backgroundImage;
 
-// let secondRun = true
-// let backgroundImage;
 
 function draw_one_frame(words, vocal, drum, bass, other, counter) {
 
@@ -21,19 +19,19 @@ background(24, 33, 42)
 
 
 
+{
 squareSize = map(bass, 0, 100, 20, 80)
 // circleSize = map(other, 0, 100, 50, 500)
 squareDrum = map(drum, 0, 100, 5, 60)
 squareVocal = map(vocal, 0, 100, 0, 50)
+}
 
 rectMode(CENTER)
-square(10+squareXmove, 200, squareSize, 10)
+square(10+squareXmove, 100, squareSize, 10)
+square(40+squareXmove, 300, squareSize, 10)
+square(10+squareXmove, 500, squareSize, 10)
+square(40+squareXmove, 700, squareSize, 10)
 
-
-
-
-// circle(10+circleSize, 150, circleSize, 10)
-// lip(10+lipSize, 100, lipSize, 10)
 
 squareXmove = squareXmove+3
 
@@ -49,6 +47,9 @@ for (let i = 0; i<10; i++){
 for (let k = 0; k<20; k++){
         fill (101, 141, 252)
         square (squareXpos + (i*80), squareYpos + (i*80), squareVocal, 5)
+
+   for (let l=1; l<10; l++)
+    square (squareXpos + (i*90), squareYpos + (i*250), squareVocal, 5)
 }
 
 if(firstRun){
@@ -71,13 +72,19 @@ squareXmove = 1
    
 // }
 
-
+if (words = "c'est comme ça"){
+fill(200)
+stroke(1)
+rect(600, 180, 500, 150, 20);
+}
 
 fill(247, 211, 111);
   textFont('Courier New', 50);
-  text(words, 500, 200);
+  text(words, 400, 200);
 
 }
+
+
 
 
 
