@@ -3,6 +3,12 @@
 let firstRun = true
 let myImage;
 
+let photo;
+let maskImage;
+
+let speechBubbleSize = 0;
+let growAmount = 1;
+let grow = true
 
 let squareXmove = 1
 let squareSize = 50
@@ -18,12 +24,12 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
 background(24, 33, 42)
 
 
-
 {
 squareSize = map(bass, 0, 100, 20, 80)
 // circleSize = map(other, 0, 100, 50, 500)
 squareDrum = map(drum, 0, 100, 5, 60)
 squareVocal = map(vocal, 0, 100, 0, 50)
+speechBubble = map(words, 0, 100, 0, 50)
 }
 
 rectMode(CENTER)
@@ -31,21 +37,30 @@ square(10+squareXmove, 100, squareSize, 10)
 square(40+squareXmove, 300, squareSize, 10)
 square(10+squareXmove, 500, squareSize, 10)
 square(40+squareXmove, 700, squareSize, 10)
+// maskImage = loadImage("backGround.png")
+
+// mask(maskImage);
+
+// image(mask, 0, 0)
+
 
 push() 
+if (songIsPlaying){
 rectMode(CENTER)
+translate (width/2, height/2)
 let angle = frameCount * 1;
-rotate(angle);
+rotate(frameCount);
 ellipse(0+ squareXmove, 0, 80, 40);
 ellipse(60+ squareXmove, 200, 80, 40);
 ellipse(120+ squareXmove, 400, 80, 40);
 ellipse(180+ squareXmove, 600, 80, 40);
 pop()
+}
 
 
+if (songIsPlaying){
 squareXmove = squareXmove+3
-
-
+}
 
 for (let i = 0; i<10; i++){
       fill(184, 89, 2)
@@ -59,8 +74,11 @@ for (let k = 0; k<20; k++){
         fill (101, 141, 252)
         square (squareXpos + (i*80), squareYpos + (i*80), squareVocal, 5)
 
-   for (let l=1; l<10; l++)
-    square (squareXpos + (i*90), squareYpos + (i*250), squareVocal, 5)
+for (let l = 0; l<40; l++){
+   fill (101, 141, 252)
+  square (squareXpos + (l*80), squareYpos + (l*80), squareVocal, 5)
+}
+   
 }
 
 if(firstRun){
@@ -78,19 +96,30 @@ squareXmove = 1
 }
 
 
-// if (words < 70){
+// {
+// fill(200)
+// stroke(1)
+// rect(600, 180, 500, speechBubbleSize, 20)
+// rect(600, 450, 500, speechBubbleSize, 20);
 
-// squareSize = map(other, 0, 100, 20, 100)
-   
+
+//   if (speechBubbleSize > 200) {
+//     grow = false
+//   }
+//   if (speechBubbleSize < 200) {
+//     grow = true
+//   }
+
 // }
 
-if (words = "c'est comme ça"){
-fill(200)
-stroke(1)
-rect(600, 180, 500, 150, 20);
-}
+// if (grow == true) {
+//     speechBubbleSize += growAmount
+//   } else {
+//     speechBubbleSize -= growAmount
+//   }
 
-fill(247, 211, 111);
+//Lyrics
+  fill(247, 211, 111);
   textFont('Courier New', 50);
   text(words, 400, 200);
 
