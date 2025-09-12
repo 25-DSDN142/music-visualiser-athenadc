@@ -125,7 +125,7 @@ if (grow == true) {
 pop()
 
 //Lyrics
-  fill(255);
+  fill(0);
   rect(CENTER);
   textFont('Courier New', 50);
   text(words, 400, 200);
