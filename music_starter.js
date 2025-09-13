@@ -1,15 +1,21 @@
 // vocal, drum, bass, and other are volumes ranging from 0 to 100
+
 let firstRun = true;
 let myImage;
+let backgroundImage;
 
 // let leftScreen = (109, 140, 244);
 // let rightScreen = (190, 34, 65);
-let squareXmove = 0; //blue background squares animation
+let squareXmove = 0; //blue background square animation X
+let squareYmove = 100 // blue background square animation Y
 let squareSize = 50; //grid square size
-let squareXpos = 20; //grid square x-axis
-let squareYpos = 50; //grid square y-axis
+let squareXpos = 20; //grid square X
+let squareYpos = 50; //grid square Y
 
 let r = 0; //pills rotate
+
+let startCol;
+let endCol;
 
 
 function draw_one_frame(words, vocal, drum, bass, other, counter) {
@@ -22,25 +28,31 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
       squareDrum = map(drum, 0, 100, 5, 60);
       squareVocal = map(vocal, 0, 100, 0, 50);
       pillBubble = map(words, 0, 100, 5, 20);
+      backSquareCol = map(0, 255, 0, 1200)
+      startCol = color(0, 150, 195)
+      endCol = color(190, 34, 65)
    }
 
-   //Moving blue squares 1
+let lerpAmount = map(squareXmove, 0, height, 0, 1);
+let interCol = lerpColor(startCol, endCol, lerpAmount);
+
+{  
+//Moving blue squares 1
    rectMode(CENTER);
-   fill(0, 150, 195);
-   square(10 + squareXmove, 100, squareSize, 10);
-   square(40 + squareXmove, 300, squareSize, 10);
-   square(10 + squareXmove, 500, squareSize, 10);
-   square(40 + squareXmove, 700, squareSize, 10);
+   fill(interCol);
+   square(10 + squareXmove, squareYmove, squareSize, 10);
+   square(40 + squareXmove, 190 + squareYmove, squareSize, 10);
+   square(10 + squareXmove, 390 + squareYmove, squareSize, 10);
+   square(40 + squareXmove, 590 + squareYmove, squareSize, 10);
 
    //Moving blue squares 2
-   {
       rectMode(CENTER);
       stroke(255);
       strokeWeight(2);
-      square(200 + squareXmove, 150, squareSize, 10);
-      square(240 + squareXmove, 350, squareSize, 10);
-      square(200 + squareXmove, 550, squareSize, 10);
-      square(240 + squareXmove, 750, squareSize, 10);
+      square(200 + squareXmove, 30 + squareYmove, squareSize, 10);
+      square(240 + squareXmove, 230 + squareYmove, squareSize, 10);
+      square(200 + squareXmove, 430 + squareYmove, squareSize, 10);
+      square(240 + squareXmove, 630 + squareYmove, squareSize, 10);
    }
 
    //grid squares
@@ -57,9 +69,10 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
          fill(101, 141, 252);
          square(squareXpos + (i * 80), squareYpos + (i * 80), squareVocal, 5);
 
-         for (let l = 0; l < 40; l++) {
+         for (let l = 0; l < 20; l++) {
             fill(101, 141, 252);
-            square(squareXpos + (l * 80), squareYpos + (l * 80), squareVocal, 5);
+            square(squareXpos + (l * 160), squareYpos, squareVocal, 5);
+            square(squareXpos, squareYpos + (l * 160), squareVocal, 5);
          }
 
          //Character Image
@@ -70,7 +83,6 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
 
          firstRun = false;
       }
-
       image(myImage, 0, 0);
 
       //to restart background square animation
@@ -79,7 +91,7 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
 
       }
    }
-   
+
    // //Speech bubble
    // {
    //    push()
@@ -99,21 +111,21 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
    // pop()
 
    //Text Bubble
-   
-   if (words){
-   push()
-   translate(600, 250)
-   beginShape();
-   fill(255)
-   vertex(-105, -86);
-   bezierVertex(-200, 140, -605, -160, 100, -160);
-   bezierVertex(73, -160, 500, -165, 250, -160);
-   bezierVertex(450, -5, 87, 28, -5, 28);
-   bezierVertex(8, 47, 15, 64, 41, 72);
-   bezierVertex(93, 79, -24, 62, -38, 28);
-   bezierVertex(-500, -28, -200, -22, -104, -85);
-   endShape()
-   pop()
+
+   if (words) {
+      push()
+      translate(600, 250)
+      beginShape();
+      fill(255)
+      vertex(-105, -86);
+      bezierVertex(-200, 140, -605, -160, 100, -160);
+      bezierVertex(73, -160, 500, -165, 250, -160);
+      bezierVertex(450, -5, 87, 28, -5, 28);
+      bezierVertex(8, 47, 15, 64, 41, 72);
+      bezierVertex(93, 79, -24, 62, -38, 28);
+      bezierVertex(-500, -28, -200, -22, -104, -85);
+      endShape()
+      pop()
    }
 
    //Lyrics
@@ -138,17 +150,17 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
 
    //pills
    translate(950, 360);
-  
-   for (let i = 0; i < 10; i++){
-      rotate(r);
-    fill(255, 157, 92)
-    ellipse(i, 220, 30, 60);
-  }
-  
 
-  if(songIsPlaying){
-  r = r + 0.2;
-  }
+   for (let i = 0; i < 10; i++) {
+      rotate(r);
+      fill(255, 157, 92)
+      ellipse(i, 220, 30, 60);
+   }
+
+
+   if (songIsPlaying) {
+      r = r + 0.2;
+   }
 
    //trigger to run background square animation
    if (songIsPlaying) {
