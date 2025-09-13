@@ -2,22 +2,14 @@
 let firstRun = true;
 let myImage;
 
-let leftScreen = (109, 140, 244);
-let rightScreen = (190, 34, 65);
+// let leftScreen = (109, 140, 244);
+// let rightScreen = (190, 34, 65);
+let squareXmove = 0; //blue background squares animation
+let squareSize = 50; //grid square size
+let squareXpos = 20; //grid square x-axis
+let squareYpos = 50; //grid square y-axis
 
-let angle = 0;
-
-let speechBubbleSize = 0;
-let growAmount = 1;
-let grow = true;
-
-let squareXmove = 0;
-let squareSize = 50;
-let squareXpos = 20;
-let squareYpos = 50;
-let squareSizes = 60;
-
-let r = 0;
+let r = 0; //pills rotate
 
 
 function draw_one_frame(words, vocal, drum, bass, other, counter) {
@@ -107,6 +99,8 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
    // pop()
 
    //Text Bubble
+   
+   if (words){
    push()
    translate(600, 250)
    beginShape();
@@ -120,13 +114,13 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
    bezierVertex(-500, -28, -200, -22, -104, -85);
    endShape()
    pop()
-
+   }
 
    //Lyrics
    fill(0);
    rect(CENTER);
    textFont('Courier New', 50);
-   text(words, 400, 200);
+   text(words, 420, 200);
 
    //  push()
    // if (songIsPlaying) {
@@ -142,7 +136,7 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
 
    // angle -= radians(80);
 
-   
+   //pills
    translate(950, 360);
   
    for (let i = 0; i < 10; i++){
@@ -155,7 +149,7 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
   if(songIsPlaying){
   r = r + 0.2;
   }
-  
+
    //trigger to run background square animation
    if (songIsPlaying) {
       squareXmove = squareXmove + 1;
